@@ -7,8 +7,8 @@
         <methods>
           <include name="Login"/>
           <include name="testTrello"/>
-          <include name="closeBrowser"/>
           <include name="logout"/>
+          <include name="closeBrowser"/>
           <include name="OpenBrowser"/>
         </methods>
       </class> <!-- com.trello.test.DemoTrello -->

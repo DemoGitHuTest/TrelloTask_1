@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class WelcomePage {
-@FindBy(xpath="//p[text()='Create']")
+@FindBy(xpath="//button[@data-testid='header-create-menu-button']")
 private WebElement CreateButton;
 
 

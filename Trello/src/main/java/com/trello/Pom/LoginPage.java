@@ -1,21 +1,51 @@
 package com.trello.Pom;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	
-   @FindBy(id="email")
-   private WebElement emailtextbox;
+
    
    
-   @FindBy(xpath="//span[text()='Sign up']")
-  private WebElement signUpButton;
+   @FindBy(id="user")
+  private WebElement emailtxtBox;
+   
+   
+   @FindBy(id="login")
+   private WebElement continueBtn;
+   
+   
+
    
    
    
-   
-   public LoginPage(WebDriver driver) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public LoginPage(WebDriver driver) {
 	   
 	   PageFactory.initElements(driver, this);
    }
@@ -23,10 +53,37 @@ public class LoginPage {
 
 
 
-public void setLogin(String email) {
-	emailtextbox.sendKeys(email);
-	signUpButton.click();
+public void setEmail(String email) {
+	emailtxtBox.sendKeys(email);
+	
+	
+	
 }
+
+
+public void setcontinueBtn() {
+	continueBtn.click();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
