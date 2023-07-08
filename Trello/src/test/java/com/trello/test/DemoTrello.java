@@ -24,7 +24,7 @@ public class DemoTrello extends BaseClass{
 		WelcomePage wp=new WelcomePage(driver);
 		wp.setCreateButton();
 		wp.setCreateButtonoption();
-		wp.setBoardnametextbox("My Board");
+		wp.setBoardnametextbox("My Board 1" );
 		
 		wp.setCreateboardsubmitBtn(driver);
 		wp.setAddlistname("list A");

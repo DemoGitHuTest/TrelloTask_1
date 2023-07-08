@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.trello.test.DemoTrello">
+      <class name="com.trello.test.DemoClassLogin">
         <methods>
           <include name="Login"/>
-          <include name="testTrello"/>
-          <include name="logout"/>
-          <include name="closeBrowser"/>
-          <include name="OpenBrowser"/>
         </methods>
-      </class> <!-- com.trello.test.DemoTrello -->
+      </class> <!-- com.trello.test.DemoClassLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
